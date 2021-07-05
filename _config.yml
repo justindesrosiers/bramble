@@ -20,19 +20,25 @@
 
 title: Bramble
 email: justinrddesrosiers@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Bramble is my personal blog where I will write posts based on the things I have been working on. Sometimes I do software development, sometimes design work, sometimes it is physical computing.
-  I will use these posts to share my experiences in working on these projects.
+description: A blog by Justin DesRosiers to document different projects that I have been working on and share what I have learned.
+
 baseurl: "/bramble" # the subpath of your site, e.g. /blog
 url: "https://justindesrosiers.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  justindesrosiers
 
+# paginate settings
+paginate: 2
+
 # Build settings
-theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
 
+  # Custom vars
+version:             1.0.0
+google_analytics_id: #UA-XXXX-Y
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
