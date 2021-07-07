@@ -1,0 +1,8 @@
+.masthead-title img{
+    display: flex;
+    align-items: center;
+    float:left;
+    height:auto;
+    max-width: 32px;
+    margin:0 2pt 0 0;
+}

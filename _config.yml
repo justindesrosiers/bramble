@@ -20,7 +20,7 @@
 
 title: Bramble
 email: justinrddesrosiers@gmail.com
-description: A blog by Justin DesRosiers to document different projects that I have been working on and share what I have learned.
+description: My name is Justin. I'm a developer, designer, maker, and all around creator...
 
 baseurl: "/bramble" # the subpath of your site, e.g. /blog
 url: "https://justindesrosiers.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -28,7 +28,10 @@ url: "https://justindesrosiers.github.io" # the base hostname & protocol for you
 github_username:  justindesrosiers
 
 # paginate settings
-paginate: 2
+paginate: 5
+paginate_path: blog/page:num/
+
+excerpt_separator: <!--more-->
 
 # Build settings
 plugins:
